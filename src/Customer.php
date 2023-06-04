@@ -11,7 +11,7 @@ class Customer {
 
     public function sayCustomer(string $name = "Guest", int $age = 0): string
     {
-        return "Hello Customer $name, my name is $this->name" . PHP_EOL;
+        return "Hello Customer $name, my name is $this->name, and i'm $age years old" . PHP_EOL;
     }
 
 }

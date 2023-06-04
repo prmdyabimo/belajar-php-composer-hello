@@ -1,0 +1,19 @@
+{
+    "name": "prmdyabimo/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Prmdyabimo\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "prmdyabimo",
+            "email": "pramudyabimo1920@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
